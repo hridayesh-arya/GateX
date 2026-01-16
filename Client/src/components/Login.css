@@ -1,0 +1,91 @@
+/* Import Google Fonts */
+
+
+/* Center the login container on the page with a gradient background */
+.login-container {
+    background-image: url('./img/iiita2.jpg');  /* Replace with the path to your image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+}
+
+/* Style the login box */
+.login-box {
+    background-color: rgba(255, 255, 255, 0.4); /* Semi-transparent white */
+    padding: 2rem;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px); /* Optional: Adds a slight blur to the background */
+    font-family: 'Roboto', sans-serif; /* Apply the custom font */
+}
+
+/* Style the heading */
+.login-heading {
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    color: #333; /* Darker text color for better contrast */
+    text-align: center; /* Center align the heading */
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5); /* Add a subtle shadow */
+    font-family: 'Roboto', sans-serif; /* Apply the custom font */
+}
+
+/* Style form labels */
+.form-label {
+    font-weight: bold;
+    color: #333; /* Dark text color for labels */
+    font-family: 'Roboto', sans-serif; /* Apply the custom font */
+}
+
+/* Add margin to form fields */
+.form-field {
+    margin-bottom: 1rem;
+}
+
+/* Style the login button */
+.login-btn {
+    background-color: #6c757d;
+    border: none;
+    padding: 0.75rem;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    width: 100%; /* Make button full width */
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5); /* Add a subtle shadow */
+    font-family: 'Roboto', sans-serif; /* Apply the custom font */
+}
+
+.login-btn:hover {
+    background-color: #5a6268;
+}
+
+/* Style the register and forgot password links */
+.link-text {
+    color: #333; /* Darker text color for links */
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif; /* Apply the custom font */
+}
+
+.link-text:hover {
+    text-decoration: underline;
+}
+
+.register-btn {
+    background-color: #6c757d;
+    border: none;
+    padding: 0.75rem;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5); /* Add a subtle shadow */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+
